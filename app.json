@@ -1,0 +1,27 @@
+{
+  "expo": {
+    "name": "petshop",
+    "slug": "petshop",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./src/assets/images/petlogo.png",
+    "splash": {
+      "image": "./src/assets/images/petlogo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#121212"
+    },
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "The app accesses your photos to let you share them with your friends."
+        }
+      ]
+    ]
+  }
+}
